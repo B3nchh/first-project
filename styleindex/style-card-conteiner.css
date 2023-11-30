@@ -1,0 +1,20 @@
+.low{
+    width: 450px;
+    display: flex;
+    text-align: center;
+}
+.top_section>a img {
+   width: 340%;
+}
+.low_section a img {
+    display: flex;
+    width: 113%;
+}
+.low_section img{
+    padding: 1px;
+}
+.info{
+    font-family: Verdana ;
+}
+
+

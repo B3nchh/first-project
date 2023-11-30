@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.carouselslide{
+    z-index: 1;
+}
+.carouselExampleControlsNoTouching{
+    z-index: 1;
+}
+.navbar{
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 3px 8px #bcbcbc;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.navbar img{
+    width: 15%;
+    display: inline;
+}
+.nav-list{
+    display: flex;
+    z-index: 10000;
+}
+.nav-list a{
+    display: block;
+    color: #000000;
+    text-decoration:none;
+    font-size: 24px;
+    padding: 0.8em;
+    margin-left: 10px;
+    z-index: 100000;
+}
+.nav-list a:hover{
+    background-color: #bcbcbc;
+}
+.login{
+    font-size: 24px;
+    color: #2e87e6;
+    margin-left: 100px;
+}
+.login a{
+    text-decoration: none;
+    color: #003c6e;
+    display:inline-block ;
+    position: relative;
+    margin-top: 20px;
+    margin-left:10px ;
+}
+.login a:hover{
+    color: #0089ff;
+}
+.nav-contact{
+    position: absolute;
+    list-style-type: none;
+    width: 230px;
+    margin-left: 360px;
+    display: none;
+    background-color:#ffffff ;
+}
+.nav-contact{
+    font-size: 10px;
+}
+
+.navbar .nav-list:hover .nav-contact{
+    display: initial;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(3) ;
+}
+img{
+    width: 100%;
+}
+.card{
+    margin: 1.5em;
+}
+.card>.info {
+    text-align: center;
+    color: #000;
+}
+.card a img{
+    width: 420px;
+}
+.info a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.info a p {
+    font-size: 16px;
+}
+.main-container .card .info .add{
+    font-size: 102px;
+}

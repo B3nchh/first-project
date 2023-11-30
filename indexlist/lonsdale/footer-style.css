@@ -1,0 +1,31 @@
+footer_container{
+    background-color: dimgray;
+}
+.main_footer{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+.main_footer{
+    background-color: #353333;
+}
+ul{
+    text-decoration: none;
+    margin-left: 200px;
+}
+ul a{
+    font-family: Verdana;
+    list-style-type:none ;
+    text-decoration: none;
+    color: white;
+}
+.four-colums img{
+    width: 40%;
+}
+.name-tag{
+    color: rgba(255, 255, 255, 0.62);
+}
+.main_footer2{
+    background-color: #353333;
+    display: flex;
+}

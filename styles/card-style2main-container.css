@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(3) ;
+}
+.card>.info {
+    text-align: center;
+}
+.info a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+.card .addcontainer #add{
+    display: flex;
+    font-size: 18px;
+    color: rgb(178, 237, 237);
+    border: solid 1px;
+    justify-content: center;
+}
+.card .addcontainer:hover #add{
+    background-color: aqua;
+    display: flex;
+}
+.card>a>img{
+    width: 110%;
+}
+

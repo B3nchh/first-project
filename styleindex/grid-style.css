@@ -1,0 +1,22 @@
+.main{
+    display: grid;
+    grid-template-columns:repeat(12, 1fr) ;
+    grid-template-rows:repeat(3) ;
+}
+.main-container{
+    grid-column:  2/12;
+}
+.low{
+    grid-column:  2/12;
+}
+.left-bar{
+      grid-column: 1/2;
+  }
+.right-bar{
+    grid-column: 12/13;
+}
+.card a img{
+    width: 100%;
+}
+
+

@@ -1,0 +1,14 @@
+.card {
+    position: relative;
+    display: block;
+}
+.card .image-add{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.1s;
+}
+.card:hover .image-add{
+    opacity: 1;
+}
